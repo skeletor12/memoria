@@ -6,19 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		EEF141131C1B1E0000CA54FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF141121C1B1E0000CA54FB /* main.m */; };
-		EEF141161C1B1E0000CA54FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF141151C1B1E0000CA54FB /* AppDelegate.m */; };
-		EEF141191C1B1E0000CA54FB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF141181C1B1E0000CA54FB /* RootViewController.m */; };
-		EEF1411C1C1B1E0000CA54FB /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1411B1C1B1E0000CA54FB /* DataViewController.m */; };
-		EEF1411F1C1B1E0000CA54FB /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1411E1C1B1E0000CA54FB /* ModelController.m */; };
-		EEF141221C1B1E0000CA54FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF141201C1B1E0000CA54FB /* Main.storyboard */; };
-		EEF141241C1B1E0000CA54FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF141231C1B1E0000CA54FB /* Assets.xcassets */; };
-		EEF141271C1B1E0000CA54FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF141251C1B1E0000CA54FB /* LaunchScreen.storyboard */; };
-		EEF141321C1B1E0000CA54FB /* memoriaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF141311C1B1E0000CA54FB /* memoriaTests.m */; };
-		EEF1413D1C1B1E0000CA54FB /* memoriaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1413C1C1B1E0000CA54FB /* memoriaUITests.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		EEF1412E1C1B1E0000CA54FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -37,26 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EEF1410E1C1B1E0000CA54FB /* memoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEF141121C1B1E0000CA54FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EEF141141C1B1E0000CA54FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EEF141151C1B1E0000CA54FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EEF141171C1B1E0000CA54FB /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		EEF141181C1B1E0000CA54FB /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		EEF1411A1C1B1E0000CA54FB /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		EEF1411B1C1B1E0000CA54FB /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		EEF1411D1C1B1E0000CA54FB /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		EEF1411E1C1B1E0000CA54FB /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
-		EEF141211C1B1E0000CA54FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EEF141231C1B1E0000CA54FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EEF141261C1B1E0000CA54FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EEF141281C1B1E0000CA54FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEF1412D1C1B1E0000CA54FB /* memoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEF141311C1B1E0000CA54FB /* memoriaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memoriaTests.m; sourceTree = "<group>"; };
-		EEF141331C1B1E0000CA54FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEF141381C1B1E0000CA54FB /* memoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEF1413C1C1B1E0000CA54FB /* memoriaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memoriaUITests.m; sourceTree = "<group>"; };
-		EEF1413E1C1B1E0000CA54FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC82FFA1C1B288C00DAD8DB /* memoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = memoria.playground; sourceTree = "<group>"; };
+		EEF1410E1C1B1E0000CA54FB /* memoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = memoria.app; path = "/Users/luisrodriguez/Documents/memoria/build/Debug-iphoneos/memoria.app"; sourceTree = "<absolute>"; };
+		EEF1412D1C1B1E0000CA54FB /* memoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = memoriaTests.xctest; path = "/Users/luisrodriguez/Documents/memoria/build/Debug-iphoneos/memoriaTests.xctest"; sourceTree = "<absolute>"; };
+		EEF141381C1B1E0000CA54FB /* memoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = memoriaUITests.xctest; path = "/Users/luisrodriguez/Documents/memoria/build/Debug-iphoneos/memoriaUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,67 +58,8 @@
 		EEF141051C1B1E0000CA54FB = {
 			isa = PBXGroup;
 			children = (
-				EEF141101C1B1E0000CA54FB /* memoria */,
-				EEF141301C1B1E0000CA54FB /* memoriaTests */,
-				EEF1413B1C1B1E0000CA54FB /* memoriaUITests */,
-				EEF1410F1C1B1E0000CA54FB /* Products */,
+				EEC82FFA1C1B288C00DAD8DB /* memoria.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		EEF1410F1C1B1E0000CA54FB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EEF1410E1C1B1E0000CA54FB /* memoria.app */,
-				EEF1412D1C1B1E0000CA54FB /* memoriaTests.xctest */,
-				EEF141381C1B1E0000CA54FB /* memoriaUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EEF141101C1B1E0000CA54FB /* memoria */ = {
-			isa = PBXGroup;
-			children = (
-				EEF141141C1B1E0000CA54FB /* AppDelegate.h */,
-				EEF141151C1B1E0000CA54FB /* AppDelegate.m */,
-				EEF141171C1B1E0000CA54FB /* RootViewController.h */,
-				EEF141181C1B1E0000CA54FB /* RootViewController.m */,
-				EEF1411A1C1B1E0000CA54FB /* DataViewController.h */,
-				EEF1411B1C1B1E0000CA54FB /* DataViewController.m */,
-				EEF1411D1C1B1E0000CA54FB /* ModelController.h */,
-				EEF1411E1C1B1E0000CA54FB /* ModelController.m */,
-				EEF141201C1B1E0000CA54FB /* Main.storyboard */,
-				EEF141231C1B1E0000CA54FB /* Assets.xcassets */,
-				EEF141251C1B1E0000CA54FB /* LaunchScreen.storyboard */,
-				EEF141281C1B1E0000CA54FB /* Info.plist */,
-				EEF141111C1B1E0000CA54FB /* Supporting Files */,
-			);
-			path = memoria;
-			sourceTree = "<group>";
-		};
-		EEF141111C1B1E0000CA54FB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EEF141121C1B1E0000CA54FB /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EEF141301C1B1E0000CA54FB /* memoriaTests */ = {
-			isa = PBXGroup;
-			children = (
-				EEF141311C1B1E0000CA54FB /* memoriaTests.m */,
-				EEF141331C1B1E0000CA54FB /* Info.plist */,
-			);
-			path = memoriaTests;
-			sourceTree = "<group>";
-		};
-		EEF1413B1C1B1E0000CA54FB /* memoriaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EEF1413C1C1B1E0000CA54FB /* memoriaUITests.m */,
-				EEF1413E1C1B1E0000CA54FB /* Info.plist */,
-			);
-			path = memoriaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +150,7 @@
 				Base,
 			);
 			mainGroup = EEF141051C1B1E0000CA54FB;
-			productRefGroup = EEF1410F1C1B1E0000CA54FB /* Products */;
+			productRefGroup = EEF141051C1B1E0000CA54FB;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -254,9 +166,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEF141271C1B1E0000CA54FB /* LaunchScreen.storyboard in Resources */,
-				EEF141241C1B1E0000CA54FB /* Assets.xcassets in Resources */,
-				EEF141221C1B1E0000CA54FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,11 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEF1411C1C1B1E0000CA54FB /* DataViewController.m in Sources */,
-				EEF141161C1B1E0000CA54FB /* AppDelegate.m in Sources */,
-				EEF1411F1C1B1E0000CA54FB /* ModelController.m in Sources */,
-				EEF141131C1B1E0000CA54FB /* main.m in Sources */,
-				EEF141191C1B1E0000CA54FB /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +197,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEF141321C1B1E0000CA54FB /* memoriaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEF1413D1C1B1E0000CA54FB /* memoriaUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,25 +221,6 @@
 			targetProxy = EEF141391C1B1E0000CA54FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EEF141201C1B1E0000CA54FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEF141211C1B1E0000CA54FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EEF141251C1B1E0000CA54FB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEF141261C1B1E0000CA54FB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EEF1413F1C1B1E0000CA54FB /* Debug */ = {
